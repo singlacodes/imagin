@@ -1,0 +1,28 @@
+# Dependencies that cause bloat
+uv.lock
+pyproject.toml
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Development files
+.git/
+.DS_Store
+*.log
+
+# Original local files
+backend.py
+frontend.py
+prompts.py
+
+# IDE
+.vscode/
+.idea/
